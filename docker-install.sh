@@ -15,3 +15,6 @@
     # 创建公用网络==bridge模式
     #docker network create share_network
 }
+
+#执行
+docker_install
