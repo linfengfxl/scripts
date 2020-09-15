@@ -8,7 +8,17 @@
 	then
 		echo "检查到Docker已安装！"
 	else
-		echo "安装Docker环境..."
+		echo "当前系统没有Docker环境："
+		echo	"1.安装Docker"
+		echo	"0.退出"
+		read -p "请输出序号（0|1）：" num
+		if[num=1]
+		then
+			echo "开始安装Docker......"
+		else
+			echo "结束安装Docker......"
+			exit 0
+		fi
 	fi
 	
 }
