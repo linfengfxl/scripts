@@ -3,4 +3,4 @@
 就可以了
 
 例如:执行 test.sh
-curl https://raw.githubusercontent.com/linfengfxl/scripts/master/test.sh | bash
+curl -sSl https://raw.githubusercontent.com/linfengfxl/scripts/master/test.sh | sh
