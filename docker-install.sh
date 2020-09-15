@@ -8,6 +8,7 @@
 		echo "检查到Docker已安装！"
 	else
 		echo "安装Docker环境..."
+	fi
 	
 }
 
