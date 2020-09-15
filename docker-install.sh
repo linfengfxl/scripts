@@ -9,7 +9,7 @@
         echo "检查到Docker已安装!"
     else
     	echo "安装docker环境..."
-        curl -sSL https://get.daocloud.io/docker | sh
+       # curl -sSL https://get.daocloud.io/docker | sh
         echo "安装docker环境...安装完成!"
     fi
     # 创建公用网络==bridge模式
