@@ -12,7 +12,7 @@
 		echo	"1.安装Docker"
 		echo	"0.退出"
 		read -p "请输出序号（0|1）：" num
-		if [ $num -eq 1]
+		if [ $num -eq 1 ]
 		then
 			echo "开始安装Docker......"
 		else
