@@ -3,7 +3,7 @@
 #安装docker
  function docker_install(){
 	echo "检查Docker......"
-	docker -v
+	docker -v &> /dev/null
 	if [ $? -eq 0 ]
 	then
 		echo "检查到Docker已安装！"
