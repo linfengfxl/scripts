@@ -5,9 +5,9 @@
 {
 	echo "检查Docker......"
 	docker -v
-    if [ $? -eq  0 ]; then
+    #if [ $? -eq  0 ]; then
         echo "检查到Docker已安装!"
-    else
+   # else
     	echo "安装docker环境..."
        # curl -sSL https://get.daocloud.io/docker | sh
         echo "安装docker环境...安装完成!"
