@@ -2,4 +2,5 @@
 再在命令行里执行  curl [拷贝的地址] | bash 
 就可以了
 
-例如，test.sh
+例如:执行 test.sh
+curl https://raw.githubusercontent.com/linfengfxl/scripts/master/test.sh | bash
